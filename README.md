@@ -60,6 +60,12 @@ python3 Pricing-Models/markov-Switching/test.py
  * Model performance for simuated data vs JPUS data is 3.25sec and 1.23 sec respectively.
  * ![Map](https://github.com/white07S/Pricing-Models/blob/main/models/markovSwitching/sim.png)
   
+  
+# Garman-Kohlhagen Model
+* This approach compares foreign currencies to stocks offering a known dividend return and was created to evaluate currency choices. A "dividend yield" equal to the risk-free interest rate offered in that foreign currency is given to the currency's owner. The Black-Scholes model's stochastic process is also assumed to govern pricing in this model.
+* In this project, you can find the comparision between Black-Scholes and Garman-Kohlhagen Model.
+* For more information: https://repository.arizona.edu/handle/10150/321771
+
 
 
 
