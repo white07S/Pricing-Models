@@ -1,3 +1,8 @@
+![GitHub](https://img.shields.io/github/license/white07S/Pricing-Models)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/white07S/Pricing-Models)
+![GitHub repo size](https://img.shields.io/github/repo-size/white07S/Pricing-Models)
+![GitHub last commit](https://img.shields.io/github/last-commit/white07S/Pricing-Models)
+
 # Pricing-Models
 
 # Binomial Option Pricing Model
