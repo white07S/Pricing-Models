@@ -52,8 +52,12 @@ python3 Pricing-Models/heston/test.py
 * MSM is tested on equity market and verfied using the return and risk ratio.
 
 ```
-python3
+python3 Pricing-Models/markov-Switching/test.py
 ```
+* This models is optimized using Numba so if you have any trouble installing numba refer its official documentation or remove the decorater from markov.py file.
+* Results
+ * Model performance for simuated data vs JPUS data is 3.25sec and 1.23 sec respectively.
+ * ![Map](https://github.com/white07S/Pricing-Models/blob/main/models/markovSwitching/sim.png)
   
 
 
