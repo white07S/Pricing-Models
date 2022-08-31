@@ -39,6 +39,21 @@ I(k_k) &= \int_{0}^{\infty} e^{ixk_j} \phi_T \bigg(x-\frac{i}{2} \bigg) \frac{1}
 &= \frac{\Delta x}{3} \sum_{n=0}^{N-1} w_n \, e^{i (-b + j \Delta k) n \Delta x} \phi_T \bigg( x_n-\frac{i}{2} \bigg) \frac{1}{{x_n}^2 + \frac{1}{4}}. \\
 &= \frac{\Delta x}{3} \sum_{n=0}^{N-1} \, e^{i 2\pi j \frac{n}{N}} \; w_n e^{-i b n \Delta x} \phi_T \bigg( x_n-\frac{i}{2} \bigg) \frac{1}{{x_n}^2 + \frac{1}{4}}.
 \end{aligned}$$
+
+
+```
+python3 Pricing-Models/heston/test.py
+```
+
+# Markov switching multifractal
+
+* The Markov-switching multifractal (MSM) is a model of asset returns created by Laurent E. Calvet and Adlai J. Fisher that combines stochastic volatility components of diverse durations in financial econometrics (the application of statistical methods to economic data).
+* MSM has been utilized in financial economics to examine the effects of multifrequency risk on pricing. The excess volatility of stock returns relative to fundamentals and the negative skewness of equity returns have both been partially explained by the models. The creation of multifractal jump-diffusions has also been done using them.
+* MSM is tested on equity market and verfied using the return and risk ratio.
+
+```
+python3
+```
   
 
 
