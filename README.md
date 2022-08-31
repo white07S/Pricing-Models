@@ -50,11 +50,12 @@ python3 Pricing-Models/heston/test.py
 * The Markov-switching multifractal (MSM) is a model of asset returns created by Laurent E. Calvet and Adlai J. Fisher that combines stochastic volatility components of diverse durations in financial econometrics (the application of statistical methods to economic data).
 * MSM has been utilized in financial economics to examine the effects of multifrequency risk on pricing. The excess volatility of stock returns relative to fundamentals and the negative skewness of equity returns have both been partially explained by the models. The creation of multifractal jump-diffusions has also been done using them.
 * MSM is tested on equity market and verfied using the return and risk ratio.
+* For more informaton: https://en.wikipedia.org/wiki/Markov_switching_multifractal
 
 ```
 python3 Pricing-Models/markov-Switching/test.py
 ```
-* This models is optimized using Numba so if you have any trouble installing numba refer its official documentation or remove the decorater from markov.py file.
+* This models is optimized using **Numba** so if you have any trouble installing numba refer its official documentation or remove the decorater from markov.py file.
 * Results
  * Model performance for simuated data vs JPUS data is 3.25sec and 1.23 sec respectively.
  * ![Map](https://github.com/white07S/Pricing-Models/blob/main/models/markovSwitching/sim.png)
